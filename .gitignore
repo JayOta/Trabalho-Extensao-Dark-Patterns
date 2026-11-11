@@ -1,0 +1,17 @@
+# Documentação interna do grupo (não vai para o GitHub)
+docs-internos/
+
+# Dependências e build
+node_modules/
+dist/
+
+# Ambiente e logs
+.env*
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
