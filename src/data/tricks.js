@@ -1,0 +1,51 @@
+// Os 6 truques do catálogo (seção 4). Texto aprovado em docs-internos/conteudo.md.
+export const tricks = [
+  {
+    id: 'cobranca-escondida',
+    name: 'Cobrança escondida',
+    summary: 'O preço real só aparece no fim.',
+    example: 'ingresso de R$ 80 que vira R$ 104 com "taxa".',
+    escape: 'confira o total antes de pagar.',
+    inFolder: true,
+  },
+  {
+    id: 'opcao-menos-visivel',
+    name: 'Opção menos visível',
+    summary: 'O "sim" é enorme. O "não" quase some.',
+    example: '"Não, obrigado" em cinza, sob um botão vermelho.',
+    escape: 'ache o "não" antes de tocar em algo.',
+    inFolder: true,
+  },
+  {
+    id: 'teste-gratis',
+    name: 'Teste grátis que vira cobrança',
+    summary: 'Pedem o cartão "só para o teste" e depois cobram.',
+    example: 'streaming que cobra no 8º dia, sem aviso.',
+    escape: 'anote a data e cancele antes.',
+    inFolder: true,
+  },
+  {
+    id: 'dificil-de-cancelar',
+    name: 'Difícil de cancelar',
+    summary: 'Assinar é um clique. Cancelar é uma maratona.',
+    example: 'app que só cancela por telefone, em horário comercial.',
+    escape: 'veja como cancelar antes de assinar.',
+    inFolder: false,
+  },
+  {
+    id: 'falsa-urgencia',
+    name: 'Falsa urgência',
+    summary: 'Um relógio ou "só restam 2!" para você não pensar.',
+    example: '"acaba em 04:59", que reinicia ao recarregar a página.',
+    escape: 'respire. Oferta boa aguenta 5 minutos.',
+    inFolder: false,
+  },
+  {
+    id: 'item-pre-marcado',
+    name: 'Item pré-marcado',
+    summary: 'Extras já vêm marcados e entram na conta.',
+    example: 'garantia estendida marcada no carrinho.',
+    escape: 'confira cada caixinha marcada.',
+    inFolder: false,
+  },
+]

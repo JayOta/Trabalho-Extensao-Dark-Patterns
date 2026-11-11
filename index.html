@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#141414" />
     <meta name="description" content="Aprenda a reconhecer os Dark Patterns: truques de design que fazem você clicar, assinar ou comprar sem querer." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Dark Patterns · Quando os sites manipulam suas decisões" />
+    <meta property="og:description" content="Aprenda a perceber os truques que fazem você clicar, assinar ou comprar sem querer." />
     <title>Dark Patterns · Quando os sites manipulam suas decisões</title>
     <link rel="icon" type="image/png" href="/src/assets/logos/unipar-carmim.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,5 +17,17 @@
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+
+    <!-- VLibras: tradução para Libras (ferramenta oficial do Governo Federal) -->
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      if (window.VLibras) new window.VLibras.Widget('https://vlibras.gov.br/app')
+    </script>
   </body>
 </html>
